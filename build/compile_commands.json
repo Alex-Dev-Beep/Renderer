@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/Artemio/Desktop/Renderer/build",
+  "command": "clang++ -IC:/libs/glfw-3.4.bin.WIN64/include -IC:/libs/glm -isystem C:/VulkanSDK/1.4.341.1/include -O0 -g -Xclang -gcodeview -std=gnu++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\renderer.dir\\src\\instance.cpp.obj -c C:\\Users\\Artemio\\Desktop\\Renderer\\src\\instance.cpp",
+  "file": "C:/Users/Artemio/Desktop/Renderer/src/instance.cpp",
+  "output": "C:/Users/Artemio/Desktop/Renderer/build/CMakeFiles/renderer.dir/src/instance.cpp.obj"
+},
+{
+  "directory": "C:/Users/Artemio/Desktop/Renderer/build",
+  "command": "clang++ -IC:/libs/glfw-3.4.bin.WIN64/include -IC:/libs/glm -isystem C:/VulkanSDK/1.4.341.1/include -O0 -g -Xclang -gcodeview -std=gnu++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\renderer.dir\\src\\main.cpp.obj -c C:\\Users\\Artemio\\Desktop\\Renderer\\src\\main.cpp",
+  "file": "C:/Users/Artemio/Desktop/Renderer/src/main.cpp",
+  "output": "C:/Users/Artemio/Desktop/Renderer/build/CMakeFiles/renderer.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Artemio/Desktop/Renderer/build",
+  "command": "clang++ -IC:/libs/glfw-3.4.bin.WIN64/include -IC:/libs/glm -isystem C:/VulkanSDK/1.4.341.1/include -O0 -g -Xclang -gcodeview -std=gnu++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\renderer.dir\\src\\vulkan_context.cpp.obj -c C:\\Users\\Artemio\\Desktop\\Renderer\\src\\vulkan_context.cpp",
+  "file": "C:/Users/Artemio/Desktop/Renderer/src/vulkan_context.cpp",
+  "output": "C:/Users/Artemio/Desktop/Renderer/build/CMakeFiles/renderer.dir/src/vulkan_context.cpp.obj"
+},
+{
+  "directory": "C:/Users/Artemio/Desktop/Renderer/build",
+  "command": "clang++ -IC:/libs/glfw-3.4.bin.WIN64/include -IC:/libs/glm -isystem C:/VulkanSDK/1.4.341.1/include -O0 -g -Xclang -gcodeview -std=gnu++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\renderer.dir\\src\\window.cpp.obj -c C:\\Users\\Artemio\\Desktop\\Renderer\\src\\window.cpp",
+  "file": "C:/Users/Artemio/Desktop/Renderer/src/window.cpp",
+  "output": "C:/Users/Artemio/Desktop/Renderer/build/CMakeFiles/renderer.dir/src/window.cpp.obj"
+}
+]

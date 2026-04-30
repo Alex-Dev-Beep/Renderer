@@ -1,0 +1,3 @@
+C:/Users/Artemio/Desktop/Renderer/build/CMakeFiles/renderer.dir
+C:/Users/Artemio/Desktop/Renderer/build/CMakeFiles/edit_cache.dir
+C:/Users/Artemio/Desktop/Renderer/build/CMakeFiles/rebuild_cache.dir

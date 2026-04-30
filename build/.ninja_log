@@ -1,0 +1,9 @@
+# ninja log v7
+279	3317	7992922084062345	CMakeFiles/renderer.dir/src/main.cpp.obj	85fcfb088038f1bc
+3482	4184	7992917000395022	renderer.exe	4899aa6c91e2670
+176	3481	7992916967348421	CMakeFiles/renderer.dir/src/instance.cpp.obj	f2ec864fc7eece97
+423	3860	7992907950559086	CMakeFiles/renderer.dir/src/window.cpp.obj	3b9c49adcbe056d8
+749	1488	7992926592082645	CMakeFiles/renderer.dir/src/vulkan_context.cpp.obj	2fad7ff851dbf8a5
+691	5163	7992926591497126	CMakeFiles/renderer.dir/src/main.cpp.obj	85fcfb088038f1bc
+28	5261	7992926584862726	CMakeFiles/renderer.dir/src/instance.cpp.obj	f2ec864fc7eece97
+5261	6190	7992926637203796	renderer.exe	cf95f60d1f321fed
