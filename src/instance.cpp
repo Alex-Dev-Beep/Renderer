@@ -103,9 +103,7 @@ void createInstance() {
         createInfo.enabledLayerCount = 0;
         createInfo.pNext = nullptr;
     }
-    if (vkCreateInstance(&createInfo, nullptr, &(vkContext.instance)) != VK_SUCCESS) {
+    if (vkCreateInstance(&createInfo, nullptr, &vkContext.instance) != VK_SUCCESS) {
         throw std::runtime_error("failed to create instance!");
-    } else {
-        std::cout << "Vulkan instance created successfully" << std::endl;
     }
 }

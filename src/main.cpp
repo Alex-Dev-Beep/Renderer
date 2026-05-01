@@ -1,3 +1,4 @@
+#include "device.hpp"
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
 
@@ -16,6 +17,8 @@ int main() {
     createWindow();
     createInstance();
     setupDebugMessenger();
+    pickPhysicalDevice();
+    createLogicalDevice();
 
     while(!glfwWindowShouldClose(WindowContext.window)) {
         glfwPollEvents();

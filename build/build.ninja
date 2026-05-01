@@ -49,6 +49,17 @@ cmake_ninja_workdir = C$:/Users/Artemio/Desktop/Renderer/build/
 
 build cmake_object_order_depends_target_renderer: phony || .
 
+build CMakeFiles/renderer.dir/src/device.cpp.obj: CXX_COMPILER__renderer_unscanned_Debug C$:/Users/Artemio/Desktop/Renderer/src/device.cpp || cmake_object_order_depends_target_renderer
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\renderer.dir\src\device.cpp.obj.d
+  FLAGS = -O0 -g -Xclang -gcodeview -std=gnu++17 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
+  INCLUDES = -IC:/libs/glfw-3.4.bin.WIN64/include -IC:/libs/glm -isystem C:/VulkanSDK/1.4.341.1/include
+  OBJECT_DIR = CMakeFiles\renderer.dir
+  OBJECT_FILE_DIR = CMakeFiles\renderer.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\renderer.dir\
+  TARGET_PDB = renderer.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\renderer.dir
+
 build CMakeFiles/renderer.dir/src/instance.cpp.obj: CXX_COMPILER__renderer_unscanned_Debug C$:/Users/Artemio/Desktop/Renderer/src/instance.cpp || cmake_object_order_depends_target_renderer
   CONFIG = Debug
   DEP_FILE = CMakeFiles\renderer.dir\src\instance.cpp.obj.d
@@ -101,7 +112,7 @@ build CMakeFiles/renderer.dir/src/window.cpp.obj: CXX_COMPILER__renderer_unscann
 #############################################
 # Link the executable renderer.exe
 
-build renderer.exe: CXX_EXECUTABLE_LINKER__renderer_Debug CMakeFiles/renderer.dir/src/instance.cpp.obj CMakeFiles/renderer.dir/src/main.cpp.obj CMakeFiles/renderer.dir/src/vulkan_context.cpp.obj CMakeFiles/renderer.dir/src/window.cpp.obj | C$:/VulkanSDK/1.4.341.1/Lib/vulkan-1.lib
+build renderer.exe: CXX_EXECUTABLE_LINKER__renderer_Debug CMakeFiles/renderer.dir/src/device.cpp.obj CMakeFiles/renderer.dir/src/instance.cpp.obj CMakeFiles/renderer.dir/src/main.cpp.obj CMakeFiles/renderer.dir/src/vulkan_context.cpp.obj CMakeFiles/renderer.dir/src/window.cpp.obj | C$:/VulkanSDK/1.4.341.1/Lib/vulkan-1.lib
   CONFIG = Debug
   FLAGS = -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd
   LINK_FLAGS = -Xlinker /subsystem:console -fuse-ld=lld-link

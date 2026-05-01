@@ -14,7 +14,8 @@ file(GLOB SRC_FILES src/*.cpp)
 add_executable(renderer ${SRC_FILES}
     src/window.hpp
     src/window.cpp
-    src/vulkan_context.cpp)
+    src/vulkan_context.cpp
+    src/device.cpp)
 
 target_include_directories(renderer PRIVATE
     ${GLFW_PATH}/include
