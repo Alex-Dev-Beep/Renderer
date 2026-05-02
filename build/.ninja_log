@@ -1,11 +1,10 @@
 # ninja log v7
-691	5163	7992926591497126	CMakeFiles/renderer.dir/src/main.cpp.obj	85fcfb088038f1bc
-5261	6190	7992926637203796	renderer.exe	cf95f60d1f321fed
-28	5261	7992926584862726	CMakeFiles/renderer.dir/src/instance.cpp.obj	f2ec864fc7eece97
+43	1612	7993732149895214	CMakeFiles/renderer.dir/src/main.cpp.obj	85fcfb088038f1bc
+1614	1900	7993732165604183	renderer.exe	3a913eeae50e9033
+311	2540	7993731788507455	CMakeFiles/renderer.dir/src/instance.cpp.obj	f2ec864fc7eece97
 423	3860	7992907950559086	CMakeFiles/renderer.dir/src/window.cpp.obj	3b9c49adcbe056d8
 749	1488	7992926592082645	CMakeFiles/renderer.dir/src/vulkan_context.cpp.obj	2fad7ff851dbf8a5
 92	2473	7993731786331553	CMakeFiles/renderer.dir/src/device.cpp.obj	4493704e66ee72c0
-311	2540	7993731788507455	CMakeFiles/renderer.dir/src/instance.cpp.obj	f2ec864fc7eece97
-2541	3031	7993731810809746	renderer.exe	3a913eeae50e9033
-43	1612	7993732149895214	CMakeFiles/renderer.dir/src/main.cpp.obj	85fcfb088038f1bc
-1614	1900	7993732165604183	renderer.exe	3a913eeae50e9033
+148	5439	7994383492563457	CMakeFiles/renderer.dir/src/main.cpp.obj	85fcfb088038f1bc
+472	5446	7994383495788450	CMakeFiles/renderer.dir/src/window.cpp.obj	3b9c49adcbe056d8
+5449	6394	7994383545561512	renderer.exe	3a913eeae50e9033

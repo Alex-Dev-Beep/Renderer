@@ -1,4 +1,5 @@
 #include "window.hpp"
+#include "vulkan_context.hpp"
 
 #include <cstdint>
 #include <stdexcept>
@@ -24,5 +25,13 @@ void createWindow() {
                 context->HEIGHT = static_cast<uint32_t>(height);
             }
         });
+    }
+}
+
+void createSurface() {
+    if (glfwCreateWindowSurface(vkContext.instance, WindowContext.window, nullptr, &WindowContext.surface) != VK_SUCCESS) {
+        throw std::runtime_error("Failed to create window surface");
+    } else {
+        std::cout << "Window surface created successfully" << std::endl;
     }
 }

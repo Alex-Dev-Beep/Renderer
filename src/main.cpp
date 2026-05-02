@@ -19,6 +19,7 @@ int main() {
     setupDebugMessenger();
     pickPhysicalDevice();
     createLogicalDevice();
+    createSurface();
 
     while(!glfwWindowShouldClose(WindowContext.window)) {
         glfwPollEvents();

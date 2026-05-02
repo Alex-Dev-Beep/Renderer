@@ -6,6 +6,7 @@
 struct windowContext {
     // handle
     GLFWwindow* window;
+    VkSurfaceKHR surface;
 
     // window dimensions
     uint32_t WIDTH = 800;
@@ -15,5 +16,6 @@ struct windowContext {
 };
 
 void createWindow();
+void createSurface();
 
 inline windowContext WindowContext;
