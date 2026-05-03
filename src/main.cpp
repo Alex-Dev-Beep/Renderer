@@ -25,6 +25,9 @@ int main() {
         glfwPollEvents();
     }
 
+    vkDestroySurfaceKHR(vkContext.instance, WindowContext.surface, nullptr);
+    vkDestroyDevice(DeviceTypes.device, nullptr);
+
     if (enableValidationLayers) {
         DestroyDebugUtilsMessengerEXT(vkContext.instance, vkContext.debugMessenger, nullptr);
     }
